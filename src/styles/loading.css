@@ -1,0 +1,33 @@
+.loading{
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #14141a;
+    animation: fadeOut 1s ;
+    animation-delay: 2s;
+
+}
+
+.loading-logo{
+   
+    animation: fadeIn 3s;
+}
+
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+
+  @keyframes fadeOut {
+    
+    100% { opacity: 0; }
+  }

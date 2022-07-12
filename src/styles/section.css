@@ -1,0 +1,53 @@
+.section{
+    position: relative;
+	float: left;
+	width: 100%;
+	padding: 110px 0;
+	background: #fff;
+	overflow: hidden;
+    
+}
+.section-subtitle {
+	position: absolute;
+	font-family: 'Poppins', sans-serif;
+	text-transform: uppercase;
+	font-weight: 900;
+	top: 50px;
+	left: 40px;
+	color: #ccc;
+	right: 0;
+	opacity: 0.15;
+	text-align: left;
+	transform: translateZ(0px) translateY(20px); font-size: 12rem;
+}
+.section-subtitle>span{
+    color: #FF3A58;
+}
+.right-pos {
+	right: 80px;
+	text-align: right;
+}
+
+
+
+
+.section-no {
+	position: absolute;
+	font-family: 'Poppins', sans-serif;
+
+	font-weight: 900;
+	top: 0;
+	left: 0;
+	color: #000;
+	right: 0;
+    /* z-index: 10; */
+	opacity: 0.2;
+    font-size: 12rem;
+}
+
+.bottom-pos{
+    top: 80%;
+    bottom: 10%;
+    float: end;
+}
+
